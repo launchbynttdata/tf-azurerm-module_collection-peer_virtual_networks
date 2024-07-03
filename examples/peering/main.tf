@@ -21,7 +21,8 @@ module "network-peering" {
 }
 
 module "spoke_network" {
-  source = "git::https://github.com/launchbynttdata/tf-azurerm-module_collection-spoke_network.git?ref=1.0.0"
+  source  = "terraform.registry.launch.nttdata.com/module_collection/spoke_network/azurerm"
+  version = "~> 1.0"
 
   resource_names_map      = var.resource_names_map_spoke
   instance_env            = var.instance_env
@@ -41,7 +42,8 @@ module "spoke_network" {
 }
 
 module "hub_vnet" {
-  source = "git::https://github.com/launchbynttdata/tf-azurerm-module_collection-hub_network.git?ref=1.0.0"
+  source  = "terraform.registry.launch.nttdata.com/module_collection/hub_network/azurerm"
+  version = "~> 1.0"
 
   resource_names_map      = var.resource_names_map_hub
   instance_env            = var.instance_env

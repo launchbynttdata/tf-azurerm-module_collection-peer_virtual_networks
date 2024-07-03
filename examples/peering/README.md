@@ -17,8 +17,8 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_network-peering"></a> [network-peering](#module\_network-peering) | ../.. | n/a |
-| <a name="module_spoke_network"></a> [spoke\_network](#module\_spoke\_network) | git::https://github.com/launchbynttdata/tf-azurerm-module_collection-spoke_network.git | 1.0.0 |
-| <a name="module_hub_vnet"></a> [hub\_vnet](#module\_hub\_vnet) | git::https://github.com/launchbynttdata/tf-azurerm-module_collection-hub_network.git | 1.0.0 |
+| <a name="module_spoke_network"></a> [spoke\_network](#module\_spoke\_network) | terraform.registry.launch.nttdata.com/module_collection/spoke_network/azurerm | ~> 1.0 |
+| <a name="module_hub_vnet"></a> [hub\_vnet](#module\_hub\_vnet) | terraform.registry.launch.nttdata.com/module_collection/hub_network/azurerm | ~> 1.0 |
 
 ## Resources
 
